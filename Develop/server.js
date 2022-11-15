@@ -6,7 +6,7 @@ const fs = require('fs');
 
 //create app variable to create server and define database json
 const app = express();
-const api = require('./routes/apiRoutes/index')
+const api = require('./routes/index')
 
 //defines port and provides fallback port
 const PORT = process.env.PORT || 3001;
