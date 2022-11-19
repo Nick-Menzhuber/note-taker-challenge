@@ -6,7 +6,7 @@ const fs = require('fs');
 
 //create app variable to create server and define database json
 const app = express();
-const api = require('./routes/index')
+const api = require('./routes/notes');
 
 //defines port and provides fallback port
 const PORT = process.env.PORT || 3001;
@@ -16,6 +16,8 @@ const PORT = process.env.PORT || 3001;
 app.use(express.urlencoded({ extended: true}));
 app.use(express.json());
 app.use(express.static('public'));
+app.use('/api', api);
+
 
 //sets server route map
 app.get('/', (req, res) => {

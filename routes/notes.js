@@ -3,13 +3,17 @@ const express = require('express');
 const router = express.Router();
 
 //setting api routes
-router.get('/', (req, res) => {
-  res.json({"title": "test title"})
+router.get('/notes', (req, res) => {
+  res.json([{"id": 1, "title": "test title", "text": "test text"}])
+})
+
+router.post('/notes', (req, res) => {
+  res.send ("post route works")
 })
 
 
 
-router.delete('/', (req, res) => {
+router.delete('/notes', (req, res) => {
   res.send ("Delete route works")
 })
 
