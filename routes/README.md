@@ -20,7 +20,9 @@ An application built using an express server backend to allow users to retrieve 
 
 ## Installation 
 
-This application is hosted on heroku, so no additional installations should be required.
+This application is hosted on heroku, so no additional installations should be required. 
+
+The heroku URL is [https://nmenzhuber-note-taker-app.herokuapp.com] (https://nmenzhuber-note-taker-app.herokuapp.com)
 
 
 
