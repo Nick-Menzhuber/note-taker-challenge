@@ -1,6 +1,5 @@
-//required modules
+//require express
 const express = require('express');
-//const {v4 : uuidv4} = require('uuid');
 
 //create app variable to create server with express
 const app = express();

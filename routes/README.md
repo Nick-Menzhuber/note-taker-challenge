@@ -42,7 +42,7 @@ This application utilizes pre-built starter code on the frontend. Starter code f
 
 ## Contribute 
 
-This project is not considered fully complete and it is likely going to be resubmitted; therefore I ask for no outside contributions at this time. 
+Contributions are welcome after 3/1/23. Thanks!
 
 
 
