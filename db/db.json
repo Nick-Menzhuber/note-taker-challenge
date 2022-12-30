@@ -1,7 +1,1 @@
-[
-    {
-        "id":"000",
-        "title":"Test Title",
-        "text":"Test Note text"
-    }
-]
+[{"title":"A New Note","text":"This is asdf\n","id":"5f75ee28-372b-4569-b586-e93beee0fe7c"},{"title":"The Note Strikes Back","text":"Episode V","id":"763c6157-78d8-456e-81de-51b6d9dbbad4"},{"title":"Return of the Note","text":"Episode VI","id":"09c9beb8-cdaa-4cef-bd99-c8ca88b85b19"},{"title":"The Note Awakens","text":"Episode VII","id":"d583ed0b-f5d8-4654-b3b8-68c899b581c4"}]
