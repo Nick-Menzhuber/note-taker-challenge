@@ -28,7 +28,10 @@ The heroku URL is [https://nmenzhuber-note-taker-app.herokuapp.com] (https://nme
 
 ## Usage 
 
-Users should enter a title and the text for their note in the specified field. They may then click the save icon in order to post the new note to the database. 
+Users should enter a title and the text for their note in the specified field. They may then click the save icon in order to post the new note to the database. Clicking on a note title in the left view brings that note to the right view in full. Notes can be deleted using the trash icon.
+
+Application screenshot:
+![application screenshot](./assets/images/screenshot.png)
 
 
 
@@ -36,7 +39,7 @@ Users should enter a title and the text for their note in the specified field. T
 
 
 
-This application utilizes pre-built starter code on the frontend. Starter code for this application by [Xander Rapstine](https://github.com/Xandromus) and [John McCambridge] (https://githuib.com/nol166). 
+This application utilizes pre-built starter code on the frontend. Starter code for this application by [Xander Rapstine](https://github.com/Xandromus) and [John McCambridge](https://github.com/nol166). 
 
 
 
@@ -48,7 +51,7 @@ Contributions are welcome after 3/1/23. Thanks!
 
 ## Tests 
 
-N/A 
+End to end user testing has been done. As of the latest commit, there is a flaw wherein the user needs to manually shorten the URL on the notes page to remove the .html in order for the application to work as intended. I hope to resolve this bug soon!
 
 
 
