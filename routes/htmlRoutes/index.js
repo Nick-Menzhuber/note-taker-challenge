@@ -12,8 +12,8 @@ router.get("/notes", (req, res) => {
 });
 
 //backstop wildcard route to home page
-router.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../../public/index.html"));
-});
+// router.get("*", (req, res) => {
+//   res.sendFile(path.join(__dirname, "../../public/index.html"));
+// });
 
 module.exports = router
